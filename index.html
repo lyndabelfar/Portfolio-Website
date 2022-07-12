@@ -9,23 +9,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:ital,wght@1,300&family=Outfit:wght@200&family=PT+Sans+Caption&family=Roboto:wght@300;400&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <nav>
         <div class="logo">Lynda Dev.</div>
         <div class="nav-links">
-            <a href="#about-part">About</a>
-            <a href="#skills-part">My Skills</a>
-            <a href="#main-projects-part">My Work</a>
-            <a href="#side-projects-part">Side Projects</a>
-            <a href="#contact-part">Contact Me</a>
+            <a href="#about-part" class="nav-a">About</a>
+            <a href="#skills-part" class="nav-a">My Skills</a>
+            <a href="#main-projects-part" class="nav-a">My Work</a>
+            <a href="#side-projects-part" class="nav-a">Side Projects</a>
+            <a href="#contact-part" class="nav-a">Contact Me</a>
         </div>
     </nav>
 
     <div id="about-part">
-        <div class="title">Hi! My name is Lynda, I'm a frontend developer.</div>
-        <p class="about">I am a 17 years old freelance frontend developer with over a year of experience based in Algeria.</p>
-        <p class="job">I create <b>websites</b> and <b>landing pages</b> for small businesses or individuals </p>
+        <div class="left">
+            <div class="title">Hi! My name is Lynda, I'm a frontend developer.</div>
+            <p class="about">I am a 17 years old freelance frontend developer with over a year of experience.</p>
+            <p class="job">I create <b>websites</b> and <b>landing pages</b> for small businesses or individuals </p>
+        </div> 
+        <div class="right">
+            <img src="Free Vector _ Coding concept illustration.jpg" class="main-img">
+        </div> 
     </div>
     
     <div id="skills-part">
@@ -43,22 +49,57 @@
             <div class="name">Here are my main projects...</div>
             <div class="main-projects">
                 <div class="project-1">
-                    <div class="project-title">Fylo landing page</div>
-                    <img src="" class="fylo-img">
+                    <img src="/Capture d’écran fylo.png" class="fylo-img">
+                    <a target="_blank" href="https://fylo-landing-page.lyndabelfar1.repl.co/" class="project-title">Fylo landing page</a>
+                    <a href="https://github.com/lyndabelfar/fylo-landing-page" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/000000/source-code.png" class="code-img" /></a>
+
                 </div>
                 <div class="project-2">
-                    <div class="project-title">Space Tourism website</div>
-                    <img src="" class="space-img">
+                    <img src="/Capture d’écran (37).png" class="space-img">
+                    <a class="project-title" target="_blank" href="https://space-tourism-website.lyndabelfar1.repl.co/">Space Tourism website</a>
+                    <a target="_blank" href="https://github.com/lyndabelfar/Space-tourism-website"><img src="https://img.icons8.com/ios-glyphs/30/000000/source-code.png" class="code-img"/></a>
+
+
+
                 </div>
                 <div class="project-3">
-                    <div class="project-title">Crowdfunding landing page</div>
-                    <img src="" class="crowd-img">
+                    <img src="/Capture d'écran crowdfunding.png" class="crowd-img">
+                    <a class="project-title" target="_blank" href="https://crowdfunding-landing-page-1.lyndabelfar1.repl.co/">Crowdfunding landing page</a>
+                    <a  target="_blank" href="https://github.com/lyndabelfar/Crowdfunding-landing-page"><img src="https://img.icons8.com/ios-glyphs/30/000000/source-code.png" class="code-img"/></a>
+
                 </div>
                 <div class="project-4">
-                    <div class="project-title"> Countries data with API</div>
-                    <img src="" class="countries-img">
+                    <img src="/Rest Countries Screenshot.png" class="countries-img">
+                    <a class="project-title" > Countries data with API</a>
+                    <a  target="_blank" href="https://github.com/lyndabelfar/Crowdfunding-landing-page"><img src="https://img.icons8.com/ios-glyphs/30/000000/source-code.png" class="code-img"/></a>
+
                 </div>
 
+            </div>
+        </div>
+        <div id="side-projects-part">
+            <div class="name">Here are some of my side projects...</div>
+            <div class="side-projects">
+                <div class="side-project-1">
+                    <img src="/Capture d’écran advice.png" class="advice-img">
+                    <a target="_blank" href="https://advice-generator-app.lyndabelfar1.repl.co/" class="project-title">Advice Generator</a>
+                    <a href="https://github.com/lyndabelfar/Advice-Generator-App" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/000000/source-code.png" class="code-img" /></a>
+
+                </div>
+                <div class="side-project-2">
+                    <img src="/Capture d’écran weather app.png" class="weather-img">
+                    <a class="project-title" target="_blank" href="https://weather-application.lyndabelfar.repl.co/">Weather App</a>
+                    <a target="_blank" href="https://github.com/lyndabelfar/Weather-App"><img src="https://img.icons8.com/ios-glyphs/30/000000/source-code.png" class="code-img"/></a>
+
+
+
+                </div>
+                <div class="side-project-3">
+                    <img src="/capture d'écran recipes.png" class="recipes-img">
+                    <a class="project-title" target="_blank" href="https://better-recipes-generator.lyndabelfar.repl.co/">Crowdfunding landing page</a>
+                    <a  target="_blank" href="https://github.com/lyndabelfar/Recipes-generator"><img src="https://img.icons8.com/ios-glyphs/30/000000/source-code.png" class="code-img"/></a>
+
+                </div>
             </div>
         </div>
     </div>
@@ -67,4 +108,12 @@
     
     <script src="script.js"></script>
 </body>
+
+<footer id="#contact-part">
+    <p class="contact">Interested In My Work? </br> Feel Free To contact me (anytime).</p>
+    <div class="btns">
+        <button ><a  href="mailto: lyndabelfar@gmail.com"  class="email">Email Me</a></button>
+        <button class="github"><a href="https://github.com/lyndabelfar" target="_blank" class="github">See my GitHub Account</a> </button>
+    </div>
+</footer>
 </html>
